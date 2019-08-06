@@ -76,6 +76,11 @@ class AudioComponent extends React.Component {
   }
 
   handleChange(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    console.log(e);
+    
+    
     if(e.target.nodeName !== "LI")return;
     this.player(e.target);
   }
