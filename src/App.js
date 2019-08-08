@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        PéPé Sampler
+        PéPé<p>SAMPLER</p>
       </header>
       <AudioComponent />
     </div>

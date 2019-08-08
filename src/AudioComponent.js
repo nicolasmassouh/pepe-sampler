@@ -1,6 +1,5 @@
 import React from 'react';
 import './Audio.css';
-import loop from './loop-arrows.svg';
 import sound0 from './assets/sounds/enavantnousautre.mp4';
 import sound1 from './assets/sounds/jvaistarracherlefoie.mp4';
 import sound2 from './assets/sounds/arretetesconneries.mp4';
@@ -88,8 +87,7 @@ class AudioComponent extends React.Component {
   render() {
   
     let itemsList = this.urls.map(function(item, index){
-      return <li key={index} className="AudioComponent" data-label={item.label}><span>{item.label}</span>
-            <img src={loop} alt=""/>
+      return <li key={index} className={"AudioComponent img"+index}  data-label={item.label}><span>{item.label}</span>
         <audio src={item.sample} id={index}></audio>
       </li>
     });

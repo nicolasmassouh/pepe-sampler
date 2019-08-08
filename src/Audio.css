@@ -24,12 +24,17 @@
 
 
 .AudioComponent span {
-    font-size: 12px;
-    display: block;
-    padding: 10px;
-    border-radius: 5px 5px 0 0 ;
-    background-color: #282c34;
-    color: white;
+  font-size: 12px;
+  display: block;
+  padding: 10px;
+  /* border-radius: 5px 5px 0 0; */
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #282c34;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  left: 0;
+  right: 0;
 }
 
 .AudioComponent:hover {
@@ -43,6 +48,43 @@ img {
     width: 20px;
     height: 20px;
 }
+
+
+.img0, .img4, .img6, .img15 {
+  background-image: url('./assets/images/SAMPLE01.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img2, .img5, .img10 {
+  background-image: url('./assets/images/SAMPLE02.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img3, .img8,.img11  {
+  background-image: url('./assets/images/SAMPLE03.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img1, .img13,.img9 {
+  background-image: url('./assets/images/SAMPLE04.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img7, .img12,.img14 {
+  background-image: url('./assets/images/SAMPLE05.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 @keyframes App-logo-spin {
     from {
