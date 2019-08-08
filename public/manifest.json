@@ -3,12 +3,12 @@
   "name": "Sample fever for oldies",
   "icons": [
     {
-      "src": "/public/Icon-192.png",
+      "src": "/Icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/public/Icon-512.png",
+      "src": "/Icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
